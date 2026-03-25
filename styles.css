@@ -420,3 +420,41 @@ img {
     grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
   }
 }
+
+
+/* Legal pages */
+.legal-content {
+  max-width: 720px;
+}
+
+.legal-content h1 {
+  font-size: 1.8rem;
+  letter-spacing: -0.03em;
+  margin: 0 0 6px;
+}
+
+.legal-meta {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin: 0 0 28px;
+}
+
+.legal-content h2 {
+  font-size: 1.05rem;
+  margin: 28px 0 8px;
+}
+
+.legal-content p,
+.legal-content li {
+  font-size: 0.92rem;
+  color: var(--text-soft);
+  line-height: 1.7;
+}
+
+.legal-content ul {
+  padding-left: 20px;
+}
+
+.legal-content li {
+  margin-bottom: 6px;
+}
